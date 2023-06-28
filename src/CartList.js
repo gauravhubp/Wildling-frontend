@@ -45,7 +45,7 @@ function CartList({ cart }) {
   
   let submit = (e) => {
     e.preventDefault()
-    axios.post('https://check-g0m99xfke-gauravhubp.vercel.app/create-checkout-session', { CART })
+    axios.post('https://check-beta-rose.vercel.app/create-checkout-session', { CART })
         .then(function (response) {
            
                 window.location = response.data.redirect;
