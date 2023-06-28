@@ -25,8 +25,7 @@
     width: 80%;
     padding: 30px 30px;
     border-radius: 2%;
-    text-align: center;
-    margin: 40px auto;
+    margin: 40px auto !important;
 }
 
 
