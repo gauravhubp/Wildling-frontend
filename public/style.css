@@ -326,29 +326,6 @@ margin: 0.2px auto;
   flex-wrap: wrap;
 }
 
-@media (min-width:321px) and (max-width: 400){
-  .card1{
-    margin: 50px 80px!important ;
-
-  }
-}
-@media (min-width:767.98px) and (max-width: 980px){
-  .card1{
-    margin: 50px 180px !important ;
-  }
-}
-@media (min-width:564px) and (max-width: 649.98px){
-  .card1{
-    margin: 50px 130px !important ;
-  }
-}
-@media (min-width:400px) and (max-width: 564px){
-  .card1{
-    margin: 50px 100px !important ;
-
-  }
-}
-
 
 .card1{
   margin: 50px 180px ;
@@ -357,6 +334,13 @@ margin: 0.2px auto;
    border-radius: 5%;
    opacity: 0.9;
 }
+
+@media(max-width: 490px){
+  .card1{
+    margin: 50px 50px!important ;
+  }
+}
+
 
 .card-title{
   text-align: center;

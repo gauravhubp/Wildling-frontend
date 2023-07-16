@@ -78,7 +78,7 @@ function CartList({ cart }) {
         return (
           <div class="row cart-div">
             <div class="col-lg-6">
-            <img src={cartItem.image} />
+            <img class="itemimg" src={cartItem.image} />
             </div>
             <div class="col-lg-6 cartdivcol2">
             <div class="cartpn">{cartItem.title}</div>
